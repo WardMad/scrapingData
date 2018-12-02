@@ -1,0 +1,146 @@
+[
+    {
+        "Rooms ": "   4  ",
+        "Bathroom ": "   2  ",
+        "Square ": "   2,906.26 sqft  ",
+        "Parcel ": "   17,308.37 sqft  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Noord, Kalmthout",
+        "Price ": " 745,000 EUR "
+    },
+    {
+        "Rooms ": "   3  ",
+        "Bathroom ": "   1  ",
+        "Square ": "   2,981.6 sqft  ",
+        "Parcel ": "   1,076.39 sqft  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Centrum",
+        "Price ": " 695,000 EUR "
+    },
+    {
+        "Rooms ": "   5  ",
+        "Bathroom ": "   4  ",
+        "Square ": "   8,072.93 sqft  ",
+        "Parcel ": "   1.66 ac  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Noord, Brasschaat",
+        "Price ": " 1,490,000 EUR "
+    },
+    {
+        "Rooms ": "   4  ",
+        "Bathroom ": "   2  ",
+        "Square ": "   3,659.73 sqft  ",
+        "Parcel ": "   40,084.8 sqft  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Noord, Schilde",
+        "Price ": " 675,000 EUR "
+    },
+    {
+        "Rooms ": "   2  ",
+        "Bathroom ": "   2  ",
+        "Square ": "   4,628.48 sqft  ",
+        "Parcel ": "",
+        "Address ": "Belgium, Antwerp, Antwerpen-Centrum, Antwerpen",
+        "Price ": " 745,000 EUR "
+    },
+    {
+        "Rooms ": "   2  ",
+        "Bathroom ": "   1  ",
+        "Square ": "   968.75 sqft  ",
+        "Parcel ": "   11,000.72 sqft  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Noord, Kalmthout",
+        "Price ": " 349,000 EUR "
+    },
+    {
+        "Rooms ": "   6  ",
+        "Bathroom ": "   5  ",
+        "Square ": "   8,611.13 sqft  ",
+        "Parcel ": "   48,437.6 sqft  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Zuid, Lier",
+        "Price ": " 3,600,000 EUR "
+    },
+    {
+        "Rooms ": "   4  ",
+        "Bathroom ": "   2  ",
+        "Square ": "   2,852.44 sqft  ",
+        "Parcel ": "   2,411.12 sqft  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Zuid",
+        "Price ": " 720,000 EUR "
+    },
+    {
+        "Rooms ": "   3  ",
+        "Bathroom ": "   1  ",
+        "Square ": "   2,325 sqft  ",
+        "Parcel ": "   14,240.65 sqft  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Noord, Brasschaat",
+        "Price ": " 459,000 EUR "
+    },
+    {
+        "Rooms ": "   5  ",
+        "Bathroom ": "   2  ",
+        "Square ": "   6,512.17 sqft  ",
+        "Parcel ": "   24,638.59 sqft  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Noord, Kalmthout",
+        "Price ": " 1,195,000 EUR "
+    },
+    {
+        "Rooms ": "   5  ",
+        "Bathroom ": "   3  ",
+        "Square ": "   6,458.35 sqft  ",
+        "Parcel ": "   2.47 ac  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Noord, Kapellen",
+        "Price ": " 1,195,000 EUR "
+    },
+    {
+        "Rooms ": "   5  ",
+        "Bathroom ": "   4  ",
+        "Square ": "   5,543.41 sqft  ",
+        "Parcel ": "   31,979.58 sqft  ",
+        "Address ": "Belgium, Antwerp, Sint Katelijne Waver, Onze-Lieve-Vrouw-Waver",
+        "Price ": " 1,250,000 EUR "
+    },
+    {
+        "Rooms ": "   6  ",
+        "Bathroom ": "   5  ",
+        "Square ": "   9,526.06 sqft  ",
+        "Parcel ": "   1.37 ac  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Noord, Kapellen",
+        "Price ": " 2,600,000 EUR "
+    },
+    {
+        "Rooms ": "   4  ",
+        "Bathroom ": "   1  ",
+        "Square ": "   2,368.06 sqft  ",
+        "Parcel ": "",
+        "Address ": "Belgium, Antwerp, Antwerpen-Centrum",
+        "Price ": " 495,000 EUR "
+    },
+    {
+        "Rooms ": "   6  ",
+        "Bathroom ": "   2  ",
+        "Square ": "   4,219.45 sqft  ",
+        "Parcel ": "",
+        "Address ": "Belgium, Antwerp, Antwerpen-Zuid, Edegem",
+        "Price ": " 599,000 EUR "
+    },
+    {
+        "Rooms ": "   8  ",
+        "Bathroom ": "   3  ",
+        "Square ": "   8,611.13 sqft  ",
+        "Parcel ": "   3.71 ac  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Noord, Kapellen",
+        "Price ": " 1,950,000 EUR "
+    },
+    {
+        "Rooms ": "   5  ",
+        "Bathroom ": "   2  ",
+        "Square ": "   3,250.7 sqft  ",
+        "Parcel ": "   32,528.54 sqft  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Noord, Schilde",
+        "Price ": " (On Request) "
+    },
+    {
+        "Rooms ": "   5  ",
+        "Bathroom ": "   2  ",
+        "Square ": "   8,288.21 sqft  ",
+        "Parcel ": "   43,593.84 sqft  ",
+        "Address ": "Belgium, Antwerp, Antwerpen-Noord, Schilde",
+        "Price ": " 1,998,000 EUR "
+    }
+]
