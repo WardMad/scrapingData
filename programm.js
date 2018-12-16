@@ -66,7 +66,7 @@ connectAndInsert = (insert) => {
 
     let query = `INSERT INTO house_mouse SET ? `;
     dbConnection.query(query, insert, function (error, results, fields) {
- if (error) {
+        if (error) {
             throw error
         };
         console.log('done-banan')
@@ -93,14 +93,31 @@ app.get('/', (req, res) => {
     res.sendFile(__dirname + '/index.html');
 });
 
-app.get('/price', (req, res) => {
+app.get('/searchCity', (req, res) => {
+    let cityWhere = '';
+    let cityParam = req.query.city || null;
+    console.log(cityParam)
+    if (cityWhere) {
+        cityWhere = `where country '${cityParam}'`
+    }
+    try {
+        dbConnection.query(
+            `select * from house_mouse ${cityWhere};`,
+            [],
+            (err, results, fields) => {
+                if (err) {
+                    res.status(400).end();
+                    return;
+                }
+                res.json({
+                    results
+                });
+                console.log('status "ok" ')
+            })
+    } catch (e) {
+        throw e;
+    }
 
-    dbConnection.query(`SELECT price FROM antwerpen `, function (err, results) {
-        if (err) {
-            console.error(err);
-        }
-        res.json(results)
-    })
 });
 
 
@@ -117,7 +134,8 @@ app.post('/upload', (req, res) => {
         const normalizeDtata = validData.map(normalizeRow);
 
         if (normalizeDtata.length) {
-            dbConnection.query('INSERT INTO antwerpen VALUES ?', [
+            //dont forget vhange 'antwerpen'!
+            dbConnection.query('INSERT INTO house_mouse VALUES ?', [
                     normalizeDtata.map((data) => [
 
                         data['id'],
@@ -136,62 +154,22 @@ app.post('/upload', (req, res) => {
                         data['currency'],
                         data['added']
                     ])
-
                 ],
 
                 (err, values, fields) => {
                     if (err) {
                         throw err;
                     }
-                    // console.log(normalizeDtata);    
-                    console.log('ok', values);
+                    console.log('Is ok', values);
                 })
         }
     } catch (e) {
-        // console.log(e);
+
         res.status(400).end();
     }
-    // let taskInput = req.body;
-    // let userID = req.params.id;
-
-    // if (!taskInput) {
-    //     res.status(400).send({ error: true, message: 'Please add task' });
-    // }
-    // dbConnection.query(`INSERT INTO todo_items(id,text,is_completed,
-    //     user_id) VALUES(NULL,'${taskInput}',
-    // false, ${userID} )`, function(error, data) {
-    //     if (error) throw error;
-    //     res.send(taskInput + ' task, has been created successfully.');
-    //     console.log(typeof userID);
-    // });
     res.end();
 });
 
-//////////route
-// app.get('/todo/:id', (req, res) => {
-//     const taskID = req.params.id;
-//     dbConnection.query(`SELECT * FROM todo_items WHERE id = ? `, taskID, function(err, results) {
-//         if (err) {
-//             console.error(err);
-//         }
-//         res.json({
-//             'Task with id: ': JSON.parse(JSON.stringify(results))
-//         })
-//     })
-
-// });
-
-// app.put('/todos/update/:id', function(req, res) {
-//     let taskID = req.params.id;
-//     let text = req.body;
-//     dbConnection.query(`UPDATE todo_items SET text=''
-//      WHERE id = `, text, taskID, function(error, results) {
-//         if (error) throw error;
-//         res.send(text + ' has been updated!');
-//         console.log(text);
-
-//     })
-// });
 const port = process.env.PORT || 3311;
 app.listen(port, () => {
 
